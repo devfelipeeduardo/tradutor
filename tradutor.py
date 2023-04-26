@@ -34,11 +34,11 @@ while True:
         return linguagens
 
 
-    lang_usario = menu()
+    lang_usuario = menu()
 
     mensagem_usuario = input("Digite o que deseja traduzir: ")
 
-    traduzir = traduzir_mensagem(lang_usario[0], lang_usario[1], mensagem_usuario)
+    traduzir = traduzir_mensagem(lang_usuario[0], lang_usuario[1], mensagem_usuario)
 
     # Não continua o código
     continuar = input('Deseja continuar a traduzir?').lower()
